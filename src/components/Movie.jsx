@@ -1,35 +1,28 @@
 function Movie(props) {
   const {
-    movieLength,
     id,
     type,
     name,
-    description,
     year,
-    alternativeName,
-    enName,
     poster,
+    rating,
   } = props;
 
   return (
-    <div id={id} className="row">
-      <div className="col s12 m6">
-        <div className="card">
-          <div className="card-image">
-            <img src={poster} />
-            <span className="card-title">{name}</span>
-            <a className="btn-floating halfway-fab waves-effect waves-light red">
-              <i className="material-icons">add</i>
-            </a>
-          </div>
-          <div className="card-content">
-            <p>
-              {description}{year}
-            </p>
-          </div>
-        </div>
-      </div>
+    <div id={id} class="card">
+    <a class="btn-floating halfway-fab waves-effect waves-light red">
+      <i class="material-icons">{rating.imdb}</i></a>
+    <div class="card-image waves-effect waves-block waves-light">
+      
+      <img class="activator" src={poster.url}/>
+      
     </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">{name} {year}<i class="material-icons right">{type}</i></span>
+      <p></p>
+    </div>
+    
+  </div>
   );
 }
 export { Movie };
