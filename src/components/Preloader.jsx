@@ -1,15 +1,15 @@
 function Preloader() {
   return (
-    <div class="preloader-wrapper small active">
-      <div class="spinner-layer spinner-green-only">
-        <div class="circle-clipper left">
-          <div class="circle"></div>
+    <div className="preloader-wrapper small active">
+      <div className="spinner-layer spinner-green-only">
+        <div className="circle-clipper left">
+          <div className="circle"></div>
         </div>
-        <div class="gap-patch">
-          <div class="circle"></div>
+        <div className="gap-patch">
+          <div className="circle"></div>
         </div>
-        <div class="circle-clipper right">
-          <div class="circle"></div>
+        <div className="circle-clipper right">
+          <div className="circle"></div>
         </div>
       </div>
     </div>
