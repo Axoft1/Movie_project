@@ -13,12 +13,12 @@ class Main extends React.Component {
   git
   componentDidMount() {
     fetch(
-      "https://api.kinopoisk.dev/movie?token=RF4MN39-91PMGNC-N6KJA1P-5K33E0M"
+      "https://api.kinopoisk.dev/movie?token=RF4MN39-91PMGNC-N6KJA1P-5K33E0M&field=movieId"
     )
       .then((response) => response.json())
       .then((data) => this.setState({ movies: data.docs }));
   }
-  
+
   searchMovies=(search) => {
     fetch(
       `https://api.kinopoisk.dev/movie?token=RF4MN39-91PMGNC-N6KJA1P-5K33E0M&search=${search}&field=name`
