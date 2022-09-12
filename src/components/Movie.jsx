@@ -1,11 +1,10 @@
 function Movie(props) {
-  const { id, name, year, poster, rating} = props;
+  const { id, name, year, poster, rating } = props;
 
   return (
-
     <div id={id} className="card">
       <a className="btn-floating halfway-fab waves-effect waves-light red">
-        <i>{rating.imdb }</i>
+        <i>{rating.imdb}</i>
       </a>
       <div className="card-image waves-effect waves-block waves-light">
         <img className="activator" src={poster.url} />

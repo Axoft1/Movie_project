@@ -1,12 +1,12 @@
 import { Footer } from "./layOut/Footer";
 import { Header } from "./layOut/Header";
-import {Main} from "./layOut/Main"
+import {MainHooks} from "./layOut/MainHooks"
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Main/>
+      <MainHooks/>
       <Footer/>
     </div>
   );
