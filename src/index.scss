@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -12,13 +13,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-nav {
-  padding: 0 2rem;
-}
+// nav {
+//   padding: 0 2rem;
+// }
 
 .conteiner{
+  max-width: 2848px;
   min-height: calc(100vh - 70px - 64px);
-  padding: 1rem;
+  padding: 0 2rem;
 }
 
 .movies{
@@ -27,21 +29,21 @@ nav {
   gap: 1rem;
 }
 
-.title{
-text-transform: uppercase;
-letter-spacing: 4vw;
-text-align: center;
-text-shadow: var(--shadow);
-}
+// .title{
+// text-transform: uppercase;
+// letter-spacing: 4vw;
+// text-align: center;
+// text-shadow: var(--shadow);
+// }
 
-.link {
-  font-size: 2em;
-  margin-right: 5vw;
-}
-  link:hover {
-    text-shadow: var(--shadow)
-  }
+// .link {
+//   font-size: 2em;
+//   margin-right: 5vw;
+// }
+  // link:hover {
+  //   text-shadow: var(--shadow)
+  // }
 
-  label:active{
-    color: rgb(196, 10, 10);
-  }
+  // label:active{
+  //   color: rgb(196, 10, 10);
+  // }

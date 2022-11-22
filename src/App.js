@@ -1,11 +1,11 @@
 import { Footer } from "./layOut/Footer";
-import { Header } from "./layOut/Header";
+// import { Header } from "./layOut/Header";
 import {MainHooks} from "./layOut/MainHooks"
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       <MainHooks/>
       <Footer/>
     </div>

@@ -136,7 +136,7 @@ class Search extends React.Component {
               type="radio"
               data-type="7"
               onChange={this.handleFilter}
-              checked={this.state.type === "7"}
+              checked={this.state.type === "8"}
             />
             <span>Mini series</span>
           </label>
